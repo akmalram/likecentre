@@ -5730,3 +5730,7 @@ button {
   width: 247px;
     }
 }
+
+tomoru-web-chat {
+    display: none;
+}
