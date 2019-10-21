@@ -3087,12 +3087,12 @@ button {
     display: block;
     width: 214px;
     height: 136px;
-    background-image: url(../img/css_sprites.webp);
+    background-image: url(https://likecentre.ru/generation-test/img/css_sprites.webp);
     margin: 33px auto -4px
 }
 
 .no-webp .tariffs__tab::before {
-    background-image: url(../img/css_sprites.png)
+    background-image: url(https://likecentre.ru/generation-test/img/css_sprites.png)
 }
 
 .tariffs__tab--minimum::before {
@@ -3434,8 +3434,8 @@ button {
     }
 
     .waiting-for {
-      padding-top: 70px;
-      margin-bottom: 165px
+      padding-top: 40px;
+      margin-bottom: 1000px
   }
 
   .waiting-for__title {
@@ -3818,7 +3818,7 @@ button {
 
     .waiting-for {
       padding-top: 60px;
-      margin-bottom: 115px
+      margin-bottom: 70px
   }
 
   .waiting-for__title {
@@ -4466,8 +4466,8 @@ button {
     }
 
     .waiting-for {
-      padding-top: 90px;
-      margin-bottom: 135px
+      padding-top: 60px;
+      margin-bottom: 85px
   }
 
   .waiting-for__title {
@@ -5025,7 +5025,7 @@ button {
     }
 
     .waiting-for {
-      padding-top: 70px
+      padding-top: 40px
   }
 
   .waiting-for__title {
@@ -5731,6 +5731,33 @@ button {
     }
 }
 
-tomoru-web-chat {
-    display: none;
+@media only screen and (max-width: 425px) {
+    
+    .waiting-for {
+        padding-top: 40px;
+        margin-bottom: 35px
+    }
+
+    .waiting-for__title {
+        font-size: 30px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 55px !important;
+    }
+
+    .why-trust-us__list-tab-accent {
+        font-size: 40px;
+    }
+
+    .become-part-of-generation__title {
+        font-size: 32px !important;
+    }
+
+    .cases__title {
+        font-size: 32px !important;
+    }
+
+    .btn {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
