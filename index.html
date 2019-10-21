@@ -12,6 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="https://likecentre.ru/generation-test/img/favicons/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'/>
     <link href="https://likecentre.ru/storage/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://likecentre.ru/storage/css/common.css" />
     <link rel="stylesheet" href="./css/main.css">
@@ -208,33 +209,14 @@
                             <input class="form__input" placeholder="Имя" autocomplete="off" name="name" type="text" value="">
                         </div>
                         <div class="form__block">
-                            <input class="form__input" placeholder="Email" autocomplete="off" name="email" type="text" value="">
-                        </div>
-                        <div class="form__block">
                             <input class="form__input" placeholder="Телефон" autocomplete="off" id="phone" name="phone" type="text" value="">
-                        </div>
-                        <div class="form__block">
-                            <input class="form__input" placeholder="Город" name="city" type="text" value="">
-                        </div>
-                        <div class="form__block">
-                            <select name="type" placeholder="Пакет участия" class="form__input">
-                                    <option class="form__select" value="4171490" data-product="1069">МИНИМАЛЬНЫЙ</option>
-                                    <option class="form__select" value="4161862" data-product="1069">СТАНДАРТ</option>
-                                    <option class="form__select" value="4161866" data-product="1069">VIP</option>
-                                    <option class="form__select" value="4171490" data-product="1069">МИНИМАЛЬНЫЙ</option>
-                                    <option class="form__select" value="4161862" data-product="1069">СТАНДАРТ</option>
-                                    <option class="form__select" value="4161866" data-product="1069">VIP</option>
-                            </select>
-                        </div>
-                        <div class="form__block">
-                            <input class="form__input" placeholder="Промокод" autocomplete="off" name="promocode" type="text" value="">
                         </div>
                         <label class="form__label">
                             <input class="form__checkbox" type="checkbox" checked="checked" />
                             <svg class="checkbox" viewBox="0 0 30.46 30.46">
                                 <polyline class="checkbox__stroke" points="9.21 15.51 12.98 19.32 21.33 10.97"></polyline>
                                 <circle class="checkbox__box" cx="15.23" cy="15.23" r="14.23"></circle>
-                            </svg><span>Я согласен на&nbsp;обработку моих персональных данных в&nbsp;соответствии с&nbsp;<a class="form__label-link link" href="/storage/docs/Politika_konfidentsialnosti.pdf" target="_blank">Условиями</a></span>
+                            </svg><span>Я согласен на&nbsp;обработку моих персональных данных в&nbsp;соответствии с&nbsp;<a class="form__label-link link" href="https://likecentre.ru/storage/docs/Politika_konfidentsialnosti.pdf" target="_blank">Условиями</a></span>
                         </label>
 
 	                    <input class="btn form__btn gen2_click_participate" id="button" onclick="pixel.Event(&#039;gen2_click_participate&#039;)" type="submit" value="Принять участие">
@@ -429,8 +411,8 @@
               </ul>
             </div>
             <div class="cases__slider-controls" data-glide-el="controls">
-              <button class="cases__slider-btn cases__slider-btn--previous" data-glide-dir="&lt;">Предыдущий</button>
-              <button class="cases__slider-btn cases__slider-btn--next" data-glide-dir="&gt;">Следующий5</button>
+              <button class="cases__slider-btn cases__slider-btn--previous" data-glide-dir="&lt;"><i class="fas fa-chevron-left"></i></button>
+              <button class="cases__slider-btn cases__slider-btn--next" data-glide-dir="&gt;"><i class="fas fa-chevron-right"></i></button>
             </div>
           </div>
         </div>
@@ -681,11 +663,9 @@
             <span class="tariffs__content">Место от 15 ряда</span>
             <span class="tariffs__content">Чек-лист 50 перспективных ниш по аналитике Like Центра</span>
             <span class="tariffs__content">Чек-лист 92 каналов трафика</span>
-                        <span class="tariffs__city tariffs__city--moscow">Москва</span>
-            <span class="tariffs__price tariffs__price--moscow">500 ₽</span>
             <span class="tariffs__city">Регионы</span>
             <span class="tariffs__price">500 ₽</span>
-                      </li>
+          </li>
           <li class="tariffs__tab tariffs__tab--standart">
             <span class="tariffs__content">Пакет</span>
             <span class="tariffs__label">Стандарт</span>
@@ -696,30 +676,9 @@
             <span class="tariffs__content">Чек-лист «92 канала трафика»</span>
             <span class="tariffs__content">Таблица анализа конкурентов по методологии Like Центра</span>
             <span class="tariffs__content">Онлайн-курс «Запуск» от Like Центра</span>
-                        <span class="tariffs__city tariffs__city--moscow">Москва</span>
-            <span class="tariffs__price tariffs__price--moscow">1500 ₽</span>
             <span class="tariffs__city">Регионы</span>
             <span class="tariffs__price">1500 ₽</span>
-                      </li>
-          <li class="tariffs__tab tariffs__tab--business"><span class="tariffs__content">Пакет</span>
-            <span class="tariffs__label">VIP</span>
-            <span class="tariffs__content">Участие в мероприятии</span>
-            <span class="tariffs__content">Место с 1 ряда</span>
-            <span class="tariffs__content">Отдельная стойка регистрации без очереди</span>
-            <span class="tariffs__content">Чек-лист 50 перспективных ниш по аналитике Like Центра</span>
-            <span class="tariffs__content">Онлайн-курс «Запуск» от Like Центра</span>
-            <span class="tariffs__content">Чек-лист «92 канала трафика»</span>
-            <span class="tariffs__content">Таблица анализа конкурентов по методологии Like Центра</span>
-            <span class="tariffs__content">Доступ к библиотеке предпринимателя с чек-листами</span>
-            <span class="tariffs__content">Фуршет</span>
-            <span class="tariffs__content">Welcome кофе</span>
-            <span class="tariffs__content">Ужин с наставником </span>
-            <span class="tariffs__content">Лекция от Аяза Шабутдинова </span>
-                        <span class="tariffs__city tariffs__city--moscow">Москва</span>
-            <span class="tariffs__price tariffs__price--moscow">7500 ₽</span>
-            <span class="tariffs__city">Регионы</span>
-            <span class="tariffs__price">7500 ₽</span>
-                      </li>
+          </li>
         </ul>
       </div>
     </section>
@@ -824,14 +783,10 @@ VK.Widgets.Comments("vk_comments", {limit: 3, attach: "*", autoPublish: 1});
       <div class="container">
         <div class="address__info">
           <h2 class="title address__title">Адрес мероприятия</h2>
-                    <p>Уточняется</p>
-                  </div>
-        	<iframe class="address__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9132df54b3bc724a5924f3bdd62d56da3c38c0048bf6fd7e5a2aaa694dd33b71&amp;source=constructor" width="150%" height="100%" frameborder="0"></iframe>              </div>
-
-    <div class="cookie-notification" style="font-size: 18px;">
-        <p class="cookie-notification__message">Мы&nbsp;используем файлы cookie для&nbsp;анализа событий на&nbsp;нашем&nbsp;веб-сайте, что&nbsp;позволяет нам&nbsp;улучшать взаимодействие с&nbsp;пользователями и&nbsp;обслуживание. Продолжая просмотр страниц нашего&nbsp;сайта, вы&nbsp;соглашаетесь с&nbsp;<a href="https://likecentre.ru/storage/docs/polit_conf.pdf" class="cookie-notification__link" target="_blank">политикой обработки персональных данных</a>.</p>
-        <button class="cookie-notification__button" id="cookie-notice-btn">ОК</button>
-    </div>
+            <p>Уточняется</p>
+        </div>
+        <iframe class="address__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9132df54b3bc724a5924f3bdd62d56da3c38c0048bf6fd7e5a2aaa694dd33b71&amp;source=constructor" width="150%" height="100%" frameborder="0"></iframe>
+        </div>
 </section>
 <footer class="clearfix">
 	<div id="bottom-w">
@@ -876,8 +831,6 @@ VK.Widgets.Comments("vk_comments", {limit: 3, attach: "*", autoPublish: 1});
 		<div class="clear"></div>
 	</div>
 </footer>
-
-
     <script type='text/javascript' src="https://likecentre.ru/storage/js/jquery-1.10.2.min.js"></script>
     <script type='text/javascript' src="https://likecentre.ru/storage/js/functions.js"></script>
     <script type='text/javascript' src="https://likecentre.ru/storage/js/sourcebuster.min.js"></script>

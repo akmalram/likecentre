@@ -2325,7 +2325,7 @@ button {
 }
 
 .why-trust-us__list-tab:not(:last-child) {
-    padding-right: 55px
+    padding-right: 25px
 }
 
 .why-trust-us__list-tab:nth-child(3) {
@@ -2336,7 +2336,7 @@ button {
     font-family: 'Futura PT', Arial, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 72px;
+    font-size: 50px;
     line-height: .75;
     color: #00ffbe
 }
@@ -2399,6 +2399,19 @@ button {
     background: -o-linear-gradient(transparent, #000);
     background: linear-gradient(transparent, #000);
     z-index: 1
+}
+
+.cases__slider-btn {
+    color: #fff;
+    font-size: 40px;
+}
+
+.cases__slider-btn--previous {
+    transform: none;
+}
+
+#cases-preview {
+    display: none;
 }
 
 .programm {
@@ -2970,7 +2983,7 @@ button {
 
 .useful-for {
     background-color: #000;
-    background-image: url(../img/useful-for-bg.webp);
+    background-image: url(https://likecentre.ru/generation-test/img/useful-for-bg.webp);
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: 700px;
@@ -2978,7 +2991,7 @@ button {
 }
 
 .no-webp .useful-for {
-    background-image: url(../img/useful-for-bg.jpg)
+    background-image: url(https://likecentre.ru/generation-test/img/useful-for-bg.jpg)
 }
 
 .useful-for__title {
@@ -3041,7 +3054,7 @@ button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: -.9375rem;
     margin-right: -.9375rem;
